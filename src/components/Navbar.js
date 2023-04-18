@@ -5,7 +5,7 @@ const Navbar = () => {
         <header className='navbar'>
             <h1>Super Shop</h1>
             <nav>
-                <Link to='/'>Home</Link>
+                <Link to='/api_shop'>Home</Link>
             </nav>
         </header>
     );

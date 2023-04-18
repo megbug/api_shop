@@ -1,7 +1,7 @@
 {
   "name": "shoponline",
   "version": "0.1.0",
-  "homepage": "https://megbug.github.io/api-shop",
+  "homepage": "https://megbug.github.io/api_shop",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

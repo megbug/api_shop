@@ -9,8 +9,8 @@ function App() {
 	return (
 		<div className='App'>
 			<Routes>
-				<Route path='/' element={<ProductGallery />} />
-				<Route path='/:productItemId' element={<ProductDetailPage />} />
+				<Route path='/api-shop/' element={<ProductGallery />} />
+				<Route path='/api-shop/:productItemId' element={<ProductDetailPage />} />
 			</Routes>
 		</div>
 	);

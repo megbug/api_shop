@@ -8,7 +8,7 @@ const ProductItem = (props) => {
                 <img src={props.img} alt={`image of ${props.title}`} />
                 <h2 >{props.title}</h2>
                 <p>{props.price}</p>
-                <Link to={`/${props.productId}`}>Check Details</Link>
+                <Link to={`/api-shop/${props.productId}`}>Check Details</Link>
             </div>
         </article>
     );
